@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>resume builder</title>
+    <link rel="stylesheet" href="style.css"><link>
+</head>
+
+<body>
+    
+    <h1>Static Resume Builder by Daresh</h1>
+   <form : id="resumesheet">
+
+   <fieldset>
+    <legend>personal infromation</legend>
+    <label for=name> Name: </label> <br>
+    <input type="text" id="name" name="name" placeholder="enter your name" required>  <br>
+   
+    <label for="email"> Email: </label> <br>
+    <input type="text" id="email" name="email"  placeholder="enter your Email" required><br>
+
+    <label for="phone">  Phone:</label><br>
+    <input type="text" id="phone" name="phone" placeholder="enter your Phone number " required> <br>
+</fieldset>
+
+<fieldset>
+    <legend>Education</legend>
+    ><label for=" education"> Education:</label><br>
+    <textarea id="education" name="education"  placeholder="enter your Education" rows="3"></textarea> <br>
+</fieldset>
+
+<fieldset>    
+<legend>Skill:</legend>
+><label for="skill"> Skill:</label> <BR>
+<textarea id="skill" name="skill"  placeholder="enter your Skill" rows="3"></textarea> 
+</fieldset>
+
+<fieldset>
+<legend>Experience</legend> 
+><label for="experience">Experience:</label><br>
+<textarea id="experience" name="experience"  placeholder="enter your Experience"rows="3"></textarea>
+
+</fieldset>
+
+<button type="submit"> <b>Genarate resume</b> </button>
+
+</form>
+
+
+<div id="resumeoutput">
+<!-- resume will be Generated Below-->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
